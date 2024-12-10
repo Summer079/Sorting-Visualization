@@ -19,10 +19,3 @@ This project is an interactive tool built using **React**, **JSX**, **CSS**, and
 - **Physics-Based Animations**:  
   Integrated real-time physics for animating the sorting bars, where each bar acts like a segment on a string hanging from the ceiling. When a user’s mouse interacts with a bar, it applies a force that causes the bar to move away, similar to how a string would react to a force applied to it. This makes the visualization more responsive and engaging.
 
-## Technologies Used
-
-- React
-- JavaScript
-- CSS
-- JSX
-- Physics simulation (for bar interactions)
