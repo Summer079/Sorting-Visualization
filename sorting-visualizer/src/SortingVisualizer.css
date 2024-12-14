@@ -1,0 +1,61 @@
+/* src/SortingVisualizer.css */
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bar-container {
+    background-color: #003f5c;
+    display: flex;
+    justify-content: space-evenly;
+    /* Ensures bars are evenly spaced */
+    align-items: flex-end;
+    margin-top: 5px;
+    width: 800px;
+    /* Fixed width for the container */
+    height: 370px;
+    /* Fixed height for the container */
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.bar {
+    background-color: #f1f1f1;
+    transition: height 0.5s ease-out;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+/* Styling for the sliders */
+.slider-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+input[type="range"] {
+    width: 80%;
+    max-width: 400px;
+    margin: 10px;
+}
+
+label {
+    font-size: 14px;
+}
